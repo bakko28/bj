@@ -59,17 +59,17 @@ main {
 }
 
 #pos-2 {
-    top: 530px;
+    top: 400px;
     left: 43%;
 }
 
 #pos-3 {
-    top: 400px;
+    top: 270px;
     left: 13%;
 }
 
 #pos-4 {
-    top: 400px;
+    top: 270px;
     left: 73%;
 }
 
@@ -103,4 +103,23 @@ main {
     position: fixed;
     bottom: 16px;
     right: 16px;
+}
+
+.bet-btn-box {
+    width: 100%;
+    display: none;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bet-btn-box button {
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+    border-radius: 8px;
+    margin: 0px 4px;
+    font-size: 24px;
+    width: 64px;
+    height: 40px;
 }
